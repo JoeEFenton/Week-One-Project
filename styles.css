@@ -1,0 +1,283 @@
+.nav-head {
+  align-self: center;
+  display:inline-flex;
+  background-color: #FFFFFF;
+  /*justify-content: space-around;*/
+  display: inline-flex;
+  width: 100%;
+  height: 50px;
+}
+
+.nav-head img {
+  height: 30px;
+  width: 30px;
+}
+
+nav li {
+  text-decoration: underline;
+  background-color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Merriweather sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+li a:link {
+    color: #968772;
+}
+
+li a:active {
+    color: #968772;
+}
+
+li a:hover {
+  color: #967343;
+}
+
+a.activepage {
+  color: pink;
+}
+
+body {
+  background-color: #F2F1E8;
+  color: #131511;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+ul {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.toprow {
+  display: flex;
+  padding: 3px;
+}
+
+.top {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.bottom {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.bottomrow {
+  display: flex;
+}
+
+.labels {
+  background-color: #2b2f26;
+  color: #F2F1E8;
+  padding: 10px;
+}
+
+#product_one {
+  background-image: url("product-1.jpg");
+  background-size: cover;
+  width: 55%;
+  height: 14em;
+  color: #968772;
+  background-color: #2b2f26;
+  display: flex
+  padding: 10px;
+}
+
+#caption_two {
+  background-image: url("product-2.jpg");
+  background-size: cover;
+  width: 25%;
+  height: 14em;
+  display: flex;
+}
+
+#caption_three {
+  background-image: url("optimized/product-3.jpg");
+  background-size: cover;
+  height: 14em;
+  width: 20%;
+}
+
+#caption_four {
+  background-image: url("optimized/product-4.jpg");
+  background-size: cover;
+  height: 14em;
+  width: 20%;
+}
+
+#caption_five {
+  background-image: url("optimized/product-5.jpg");
+  background-size: cover;
+  height: 14em;
+  width: 20%;
+}
+
+#caption_six {
+  background-image: url("optimized/product-6.jpg");
+  background-size: cover;
+  height: 14em;
+  width: 40%;
+}
+
+#caption_seven {
+  background-image: url("optimized/product-7.jpg");
+  background-size: cover;
+  height: 14em;
+  width: 20%;
+}
+
+footer {
+  background-color: #2b2f26;
+  color: #F2F1E8;
+  padding: 30px;
+}
+
+#background-color {
+  position: relative;
+  background-image: url("background-2.jpg");
+  width: 100vw;
+  height: 100vw;
+}
+
+form {
+  position: absolute;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+  top: 100px;
+  padding: 20px;
+  background-color: white;
+}
+
+input[type=text]{
+  border: 0;
+  width: 100%;
+  border-bottom: 2px solid red;
+  margin-bottom: 20px;
+}
+
+input[type=submit]{
+  width: 50px;
+}
+
+#birdhouse {
+  margin-top: .5em;
+  margin-right: 30px;
+  height: 100px;
+  float: left;
+  vertical-align: top;
+  margin-bottom: 5px;
+}
+
+.main {
+  width: 100%;
+  background-color: #f1f1e9;
+}
+
+.COA {
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.COA p{
+  word-break: normal;
+}
+
+.room_to_grow {
+  background-image: url("background-3.jpg");
+  height: 300px;
+  background-size: cover;
+  font-size: 50px;
+}
+
+.room_to_grow h2 {
+  position: absolute;
+  color: white;
+  margin-left: 35%;
+  margin-right: 30%;
+}
+
+.facilities img {
+  height: 100px;
+  float: right;
+}
+
+.Monthly Table{
+  margin-left: 20%
+  float: left;
+  width: 60%;
+  position: relative;
+}
+
+table{
+  width: 90%;
+  margin-left: 20%;
+}
+
+table h2{
+  width: 30%;
+}
+
+table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px 5px;
+  }
+
+
+.facilities{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.facilities .facilities-content{
+  display: flex;
+  flex-direction: row;
+}
+
+aside img {
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.facilities p{
+  margin-right: 20px;
+  color: #2d2d25;
+  line-height: 2em;
+}
+
+.newsletterpage {
+  background-image: url("background-2.jpg");
+}
